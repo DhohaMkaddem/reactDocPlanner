@@ -1,0 +1,62 @@
+#part2{
+    display: flex;
+}
+.part2article{
+    display: flex;
+    flex-direction: column;
+    padding: 22px 40px 0px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+}
+.part2article p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   color: #747474;
+   text-align: left;
+   padding: 40px 0;
+   margin: .8em 0;
+   line-height: 1.75;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.part2article h2{
+    padding: 10px 10px;
+    font-size: .875em;
+    font-weight: 400;
+    color: hsla(0,0%,100%,.7);
+
+}
+.part2article h1{
+    color: #fff;
+    margin-top: .3em;
+    font-size: 1.625em;
+    font-weight: 300;
+    padding: 10px 10px;
+
+}
+.part2article img{
+    
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    top: 55%;
+    left:25%; 
+      
+}
+#doctor{
+    background-color: #3d83df;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#patient{
+    background: #00ccb1;
+    border-radius: 10px;
+    overflow: hidden;
+}
